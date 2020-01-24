@@ -1,0 +1,35 @@
+---- Conditions initiales
+1. Je suis sur une offre quelconque
+2. Je crée un candidat quelconque
+---- Consulter la fiche détaillée
+Je peux consulter les informations de ce candidat
+---- Editer
+Je peux commenter ce candidat
+Je peux modifier mes commentaires
+Je peux supprimer mes commentaires
+Je peux ajouter / supprimer des tags
+Je peux aimer / recommander / ne pas recommander le candidat
+Je peux envoyer un email au candidat à partir d'un template
+Je peux suivre / ne plus suivre le candidat
+Je peux évaluer les compétences du candidat par rapport aux critères de l'offre
+Je peux ajouter un document si le format du fichier est autorisé
+Je suis averti par un message d'erreur si je tente d'ajouter un fichier au format non autorisé
+Je peux supprimer un document importé précédemment
+Je peux modifier les informations générales du candidat
+Je peux importer une image si le format du fichier est autorisé
+Je peux importer un CV 
+Je peux consulter l'historique des activités et commentaires
+---- RGPD
+Je peux anonymiser la candidature
+Je peux télécharger les informations du candidat en CSV
+
+---- Consulter depuis le tableau
+Je peux voir l'évaluation et la photo du candidat dans sa fiche sur le tableau
+---- Déplacements dans le tableau
+5. Je peux déplacer ce candidat d'une colonne vers la droite
+6. Je peux déplacer ce candidat d'une colonne vers la gauche
+7. Je peux déplacer ce candidat de plusieurs colonnes d'un coup
+Je peux déplacer ce candidat de haut en bas dans une liste
+---- Suppression
+Je peux archiver le dossier du candidat
+Je peux supprimer le dossier du candidat
