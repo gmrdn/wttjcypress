@@ -1,0 +1,9 @@
+{
+  "name": "wttjcypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^3.8.2"
+  }
+}
