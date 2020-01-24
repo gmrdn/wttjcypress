@@ -32,4 +32,3 @@ Je peux voir l'évaluation et la photo du candidat dans sa fiche sur le tableau
 Je peux déplacer ce candidat de haut en bas dans une liste
 ---- Suppression
 Je peux archiver le dossier du candidat
-Je peux supprimer le dossier du candidat
