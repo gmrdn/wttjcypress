@@ -14,7 +14,11 @@ describe('Le formulaire de création de candidat', function () {
         cy.get("input[name='firstname']").type("Fleur")
         cy.get("input[name='lastname']").type("Delisse")
         cy.get("input[name='email']").type("fleur.delisse@yahoo.fr")
-        cy.contains("Enregistrer").click();
+        
+        cy.contains("Enregistrer")
+            .should('be.enabled')
+            .click();
+        
         cy.wait('@enregistrement')
             .should('have.property', "status", 201)
     })
@@ -32,12 +36,22 @@ describe('Le formulaire de création de candidat', function () {
         cy.get("input[name='lastname']").type("Delisse")
         cy.get("input[name='email']").type("fleur.delisse@yahoo.fr")
         cy.contains("Enregistrer").click();
+        
         cy.wait('@enregistrement')
             .should('have.property', "status", 500);
         cy.get("div[kind='error']")
             .should("contain.text","Impossible de créer ce candidat.")
             .and("contain.text","500: Internal Server Error")
     })
+
+    it('vérifie la validité de l\'adresse email', function () {
+        cy.get("input[name='firstname']").type("Fleur")
+        cy.get("input[name='lastname']").type("Delisse")
+        cy.get("input[name='email']").type("adresse@mauvaisformat")
+        cy.contains("Enregistrer")
+            .should('be.disabled')
+    })  
+
 })
 
 
