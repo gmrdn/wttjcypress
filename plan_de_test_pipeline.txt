@@ -18,6 +18,7 @@ Je peux supprimer un document importé précédemment
 Je peux modifier les informations générales du candidat
 Je peux importer une image si le format du fichier est autorisé
 Je peux importer un CV 
+Je peux ajouter des urls (présence sur internet) si le format des urls est valide
 Je peux consulter l'historique des activités et commentaires
 ---- RGPD
 Je peux anonymiser la candidature
