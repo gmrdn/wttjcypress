@@ -1,6 +1,6 @@
 ---- Conditions initiales
-1. Je suis sur une offre quelconque
-2. Je crée un candidat quelconque
+Je suis sur une offre quelconque
+Je crée un candidat quelconque
 ---- Consulter la fiche détaillée
 Je peux consulter les informations de ce candidat
 ---- Editer
@@ -22,13 +22,25 @@ Je peux consulter l'historique des activités et commentaires
 ---- RGPD
 Je peux anonymiser la candidature
 Je peux télécharger les informations du candidat en CSV
-
 ---- Consulter depuis le tableau
 Je peux voir l'évaluation et la photo du candidat dans sa fiche sur le tableau
+Je peux voir les changements effectués par un autre utilisateur en temps réel
 ---- Déplacements dans le tableau
-5. Je peux déplacer ce candidat d'une colonne vers la droite
-6. Je peux déplacer ce candidat d'une colonne vers la gauche
-7. Je peux déplacer ce candidat de plusieurs colonnes d'un coup
+Je peux déplacer ce candidat d'une colonne vers la droite
+Je peux déplacer ce candidat d'une colonne vers la gauche
+Je peux déplacer ce candidat de plusieurs colonnes d'un coup
 Je peux déplacer ce candidat de haut en bas dans une liste
 ---- Suppression
 Je peux archiver le dossier du candidat
+---- Resilience
+Je suis informé lorsqu'un traitement prend du temps à s'exécuter (latence réseau par ex.)
+Je suis informé lorsqu'un traitement est en erreur
+---- Compatibilité
+Je peux utiliser le dashboard sur différents navigateurs
+Je peux utiliser le dashboard sur différents OS
+Je peux utiliser le dashboard sur différents devices (android, apple)
+---- Accessibilité
+Je peux accéder aux différents éléments en utilisant le clavier uniquement
+Je peux obtenir des informations sur l'utilisation des éléments graphiques grâce à des tooltips
+---- Responsive design
+Je peux consulter la page dans différentes résolutions / sur mobile / tablette
