@@ -23,6 +23,8 @@ Je peux consulter l'historique des activités et commentaires
 Je peux anonymiser la candidature
 Je peux télécharger les informations du candidat en CSV
 ---- Consulter depuis le tableau
+Je peux voir depuis combien de temps un candidat a été créé
+Je peux consulter les informations de base du candidat sous forme de carte
 Je peux voir l'évaluation et la photo du candidat dans sa fiche sur le tableau
 Je peux voir les changements effectués par un autre utilisateur en temps réel
 ---- Déplacements dans le tableau
